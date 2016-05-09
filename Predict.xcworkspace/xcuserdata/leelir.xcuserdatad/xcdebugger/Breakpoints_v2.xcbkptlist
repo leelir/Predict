@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Predict/AppLeftViewController.swift"
+            timestampString = "484308141.855005"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/FoldingCell/FoldingCell/FoldingCell/FoldingCell/FoldingCell.swift"
+            timestampString = "484373814.181975"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "FoldingCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoldingCell.FoldingCell.foregroundView.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;FoldingCell.RotatedView&gt;"
+                  moduleName = "FoldingCell"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leelir/workspace/apple/Predict/Pods/FoldingCell/FoldingCell/FoldingCell/FoldingCell/FoldingCell.swift"
+                  timestampString = "484373816.979944"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoldingCell.FoldingCell.foregroundView.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;FoldingCell.RotatedView&gt;"
+                  moduleName = "FoldingCell"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leelir/workspace/apple/Predict/Pods/FoldingCell/FoldingCell/FoldingCell/FoldingCell/FoldingCell.swift"
+                  timestampString = "484373816.982764"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoldingCell.FoldingCell.init (style : __C.UITableViewCellStyle, reuseIdentifier : Swift.Optional&lt;Swift.String&gt;) -&gt; FoldingCell.FoldingCell"
+                  moduleName = "FoldingCell"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leelir/workspace/apple/Predict/Pods/FoldingCell/FoldingCell/FoldingCell/FoldingCell/FoldingCell.swift"
+                  timestampString = "484373816.982896"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoldingCell.FoldingCell.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;FoldingCell.FoldingCell&gt;"
+                  moduleName = "FoldingCell"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leelir/workspace/apple/Predict/Pods/FoldingCell/FoldingCell/FoldingCell/FoldingCell/FoldingCell.swift"
+                  timestampString = "484373816.982989"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FoldingCell.swift"
+            timestampString = "484384808.14514"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "FoldingCell"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

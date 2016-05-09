@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="3l7-fH-VUg">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Table View Controller-->
+        <scene sceneID="E7k-OF-V30">
+            <objects>
+                <tableViewController id="3l7-fH-VUg" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="8" sectionHeaderHeight="28" sectionFooterHeight="28" id="6cF-8j-md1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FoldingCell" rowHeight="667" id="Fe0-gM-JxI" userLabel="FoldingCell" customClass="DemoCell" customModule="Predict" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="600" height="667"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Fe0-gM-JxI" id="y6T-Pj-1sl">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="666.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PZ3-gq-wcZ" userLabel="ForegroundView">
+                                            <rect key="frame" x="20" y="7" width="560" height="100"/>
+                                            <color key="backgroundColor" red="0.54822451800000005" green="0.63954766350000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="100" id="Qyk-q7-hqp"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A7Q-eZ-ObH" userLabel="Contenter">
+                                            <rect key="frame" x="20" y="116" width="560" height="200"/>
+                                            <color key="backgroundColor" red="0.54822451800000005" green="0.63954766350000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="200" id="gT0-XY-bmD"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="PZ3-gq-wcZ" firstAttribute="leading" secondItem="y6T-Pj-1sl" secondAttribute="leadingMargin" constant="12" id="Hs3-3m-ufm"/>
+                                        <constraint firstItem="PZ3-gq-wcZ" firstAttribute="top" secondItem="y6T-Pj-1sl" secondAttribute="topMargin" identifier="ForegroundViewTop" id="OPO-07-LTi"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="PZ3-gq-wcZ" secondAttribute="trailing" constant="12" id="hEd-gu-VMc"/>
+                                        <constraint firstItem="A7Q-eZ-ObH" firstAttribute="top" secondItem="y6T-Pj-1sl" secondAttribute="topMargin" constant="96" identifier="ContainerViewTop" id="pvg-aI-cAG"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="A7Q-eZ-ObH" secondAttribute="trailing" constant="12" id="r5L-zn-eEY"/>
+                                        <constraint firstItem="A7Q-eZ-ObH" firstAttribute="leading" secondItem="y6T-Pj-1sl" secondAttribute="leadingMargin" constant="12" id="xpM-BU-aKd"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="containerView" destination="A7Q-eZ-ObH" id="ZF4-SX-HR3"/>
+                                    <outlet property="foregroundView" destination="PZ3-gq-wcZ" id="zeT-e6-iuM"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="3l7-fH-VUg" id="RHJ-cL-fIN"/>
+                            <outlet property="delegate" destination="3l7-fH-VUg" id="CwP-iM-nNk"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yhv-fX-Om2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="178" y="128"/>
+        </scene>
+    </scenes>
+</document>
