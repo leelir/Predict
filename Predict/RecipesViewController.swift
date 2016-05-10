@@ -277,8 +277,9 @@ class RecipesViewController: UIViewController {
 	/// Prepares the tableView.
 	private func prepareTableView() {
 		tableView = UITableView()
-        tableView.backgroundColor = UIColor.clearColor()
-		tableView.registerClass(FoldingCell.self, forCellReuseIdentifier: "FoldingCell")
+        tableView.backgroundColor = MaterialColor.purple.accent1 
+        let nib = UINib(nibName: "CellView", bundle: nil)
+		tableView.registerNib(nib, forCellReuseIdentifier: "FoldingCell")
 		tableView.dataSource = self
 		tableView.delegate = self
 		

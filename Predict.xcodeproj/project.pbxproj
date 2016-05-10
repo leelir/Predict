@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		532DBFA8CD172CA2D6CCBAD1 /* Pods_Predict.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0BD9C887F3A4A088531EEE /* Pods_Predict.framework */; };
 		BC560F061CDDF3F700AE9849 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC560F011CDDF3F700AE9849 /* ItemViewController.swift */; };
 		BC560F071CDDF3F700AE9849 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC560F021CDDF3F700AE9849 /* PhotoViewController.swift */; };
 		BC560F081CDDF3F700AE9849 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC560F031CDDF3F700AE9849 /* RecipesViewController.swift */; };
@@ -16,7 +17,8 @@
 		BC560F101CDDF40600AE9849 /* AppMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC560F0C1CDDF40600AE9849 /* AppMenuViewController.swift */; };
 		BC560F111CDDF40600AE9849 /* AppNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC560F0D1CDDF40600AE9849 /* AppNavigationController.swift */; };
 		BC560F121CDDF40600AE9849 /* AppSearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC560F0E1CDDF40600AE9849 /* AppSearchBarViewController.swift */; };
-		BC560F191CDDF51500AE9849 /* Material.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC560F181CDDF51500AE9849 /* Material.framework */; };
+		BC805E031CE084F400E0D63F /* Material.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC560F181CDDF51500AE9849 /* Material.framework */; };
+		BC805E051CE08B2D00E0D63F /* CellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC805E041CE08B2D00E0D63F /* CellView.xib */; };
 		BC947A001CDDEDB8008E9263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9479FF1CDDEDB8008E9263 /* AppDelegate.swift */; };
 		BC947A051CDDEDB8008E9263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC947A031CDDEDB8008E9263 /* Main.storyboard */; };
 		BC947A071CDDEDB8008E9263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC947A061CDDEDB8008E9263 /* Assets.xcassets */; };
@@ -25,7 +27,6 @@
 		BC947A201CDDEDB8008E9263 /* PredictUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC947A1F1CDDEDB8008E9263 /* PredictUITests.swift */; };
 		BCB02F161CDF1AF6007152E5 /* DemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB02F151CDF1AF6007152E5 /* DemoCell.swift */; };
 		BCB02F181CDF1DDA007152E5 /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB02F171CDF1DDA007152E5 /* FoldingCell.swift */; };
-		BD1C595A9B43276EF05B739F /* Pods_Predict.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0BD9C887F3A4A088531EEE /* Pods_Predict.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		BC560F0D1CDDF40600AE9849 /* AppNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNavigationController.swift; sourceTree = "<group>"; };
 		BC560F0E1CDDF40600AE9849 /* AppSearchBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSearchBarViewController.swift; sourceTree = "<group>"; };
 		BC560F181CDDF51500AE9849 /* Material.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Material.framework; path = "../../../Library/Developer/Xcode/DerivedData/Predict-dmobmvldyosmqhfmckmkpsygdypt/Build/Products/Debug-iphonesimulator/Material/Material.framework"; sourceTree = "<group>"; };
+		BC805E041CE08B2D00E0D63F /* CellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellView.xib; sourceTree = "<group>"; };
 		BC9479FC1CDDEDB8008E9263 /* Predict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Predict.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9479FF1CDDEDB8008E9263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC947A041CDDEDB8008E9263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -93,8 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC560F191CDDF51500AE9849 /* Material.framework in Frameworks */,
-				BD1C595A9B43276EF05B739F /* Pods_Predict.framework in Frameworks */,
+				BC805E031CE084F400E0D63F /* Material.framework in Frameworks */,
+				532DBFA8CD172CA2D6CCBAD1 /* Pods_Predict.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +138,6 @@
 		BC9479F31CDDEDB8008E9263 = {
 			isa = PBXGroup;
 			children = (
-				BCB02F151CDF1AF6007152E5 /* DemoCell.swift */,
 				BCFFE2371CDEFAC1005CAD75 /* UI */,
 				BC9479FE1CDDEDB8008E9263 /* Predict */,
 				BC947A131CDDEDB8008E9263 /* PredictTests */,
@@ -199,7 +200,9 @@
 		BCFFE2371CDEFAC1005CAD75 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				BCB02F151CDF1AF6007152E5 /* DemoCell.swift */,
 				BCB02F171CDF1DDA007152E5 /* FoldingCell.swift */,
+				BC805E041CE08B2D00E0D63F /* CellView.xib */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC805E051CE08B2D00E0D63F /* CellView.xib in Resources */,
 				BC947A0A1CDDEDB8008E9263 /* LaunchScreen.storyboard in Resources */,
 				BC947A071CDDEDB8008E9263 /* Assets.xcassets in Resources */,
 				BC947A051CDDEDB8008E9263 /* Main.storyboard in Resources */,

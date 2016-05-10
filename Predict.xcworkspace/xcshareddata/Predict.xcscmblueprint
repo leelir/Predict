@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A6BC4FAC9B5C4B116D93C4987F60C3DCE55F24D2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A6BC4FAC9B5C4B116D93C4987F60C3DCE55F24D2" : 0,
+    "B28E957FE0B96B4522EF8ADB7992E2683EAAF2AB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6B991C4D-BD4C-46F9-8950-C20FDAA8B076",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A6BC4FAC9B5C4B116D93C4987F60C3DCE55F24D2" : "Predict\/",
+    "B28E957FE0B96B4522EF8ADB7992E2683EAAF2AB" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Predict",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Predict.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/leelir\/Predict.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A6BC4FAC9B5C4B116D93C4987F60C3DCE55F24D2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/leelir\/apple.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B28E957FE0B96B4522EF8ADB7992E2683EAAF2AB"
+    }
+  ]
+}
